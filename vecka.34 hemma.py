@@ -18,6 +18,9 @@ device_4 ="NASA"
 model_4= "TERMINAL200"
 role_4 = "Router, lager 500"
 
+device_5 ="tesla"
+model_4 = "KL9922"
+role_5 = "Router, lager 10
 print ("UTRUSTNINGSLISTA")
 print ("-" *50) 
 
@@ -26,6 +29,6 @@ print (f"{device_1:<16} {model_1:<20} {role_1}")
 print (f"{device_2:<16} {model_2:<20} {role_2}") 
 print (f"{device_3:<16} {model_3:<20} {role_3}")
 print (f"{device_4:<16} {model_4:<20} {role_4}")
-
+print (f"{device_5:<16} {model_4:<20} {role_5}") 
 print ("-" * 50)
-print ("Antal enheter: 4")  
+print ("Antal enheter: 5")  
