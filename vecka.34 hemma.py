@@ -20,7 +20,7 @@ role_4 = "Router, lager 500"
 
 device_5 ="tesla"
 model_4 = "KL9922"
-role_5 = "Router, lager 10
+role_5 = "Router, lager 10"
 print ("UTRUSTNINGSLISTA")
 print ("-" *50) 
 
