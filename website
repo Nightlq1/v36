@@ -1,0 +1,16 @@
+import webbrowser
+import pygetwindow as gw
+
+print("Checking if OP.GG or YouTube is already open...")
+
+# Get all currently open window titles
+open_windows = gw.getAllTitles()
+
+opgg_is_open = any("OP.GG" in title for title in open_windows)
+youtube_is_open = any("YouTube" in title for title in open_windows)
+
+if opgg_is_open or youtube_is_open:
+print("Looks like one of the websites is already open.")
+print("Nothing to open!")
+else:
+print("Neither website is open, so I'll open both for you.")
